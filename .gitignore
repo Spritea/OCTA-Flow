@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.vscode/
+pyrightconfig.json
+ckpt/
+datasets_release/
+data_splits_k_fold_release/
+model_zoo/
+pred_val_images/
+work_dirs/
