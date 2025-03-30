@@ -3,9 +3,9 @@
 This is the official PyTorch implementation code for OCTA-Flow.
 
 >**Blood Flow Speed Estimation with Optical Coherence Tomography Angiography Images** <br/>
-Wensheng Cheng $^1$, Zhenghong Li $^1$, Jiaxiang Ren $^1$, Hyomin Jeong $^2$,
-Congwu Du $^2$, Yingtian Pan $^2$, Haibin Ling $^1$ <br/>
-$^1$ Department of Computer Science, $^2$ Department of Biomedical Engineering, Stony Brook University <br>
+Wensheng Cheng<sup>1</sup>, Zhenghong Li<sup>1</sup>, Jiaxiang Ren<sup>1</sup>, Hyomin Jeong<sup>2</sup>,
+Congwu Du<sup>2</sup>, Yingtian Pan<sup>2</sup>, Haibin Ling<sup>1</sup> <br/>
+<sup>1</sup>Department of Computer Science, <sup>2</sup>Department of Biomedical Engineering, Stony Brook University <br>
 **CVPR 2025** <br/>
 **[[Paper](https://github.com/Spritea/OCTA-Flow)]** | **[[Supp](https://github.com/Spritea/OCTA-Flow)]**
 
@@ -42,38 +42,38 @@ pip install matplotlib, tqdm, tensorboardX
 First download the pretrained encoder backbone from [here](https://github.com/microsoft/Swin-Transformer) (we use the Swin-T backbone pretrained on ImageNet-1K), and then modify the pretrain path in the config files.
 
 Training the OCTA-Flow model on Anesthetized Dataset:
-```console
+```
 cd OCTA-Flow
 bash scripts/train_anesthetized_save_all.sh
 ```
 
 Training the OCTA-Flow model on Awake Dataset:
-```console
+```
 cd OCTA-Flow
 bash scripts/train_awake_save_all.sh
 ```
 
 ## Evaluation
 Set the checkpoint path in `octaflow/eval_anesthetized.py`, and then evaluate the OCTA-Flow model on Anesthetized Dataset to get metrics:
-```console
+```
 cd OCTA-Flow
 python octaflow/eval_anesthetized.py
 ```
 
 Set the checkpoint path in `octaflow/eval_awake.py`, and then evaluate the OCTA-Flow model on Awake Dataset to get metrics:
-```console
+```
 cd OCTA-Flow
 python octaflow/eval_awake.py
 ```
 ## Inference
 Set the checkpoint path and images for inference in `octaflow/inference_val_images_oca2odt_anesthetized.py`, and then predict blood flow speed with the trained model on Anesthetized Dataset:
-```console
+```
 cd OCTA-Flow/octaflow
 python inference_val_images_oca2odt_anesthetized.py
 ```
 
 Set the checkpoint path and images for inference in `octaflow/inference_val_images_oca2odt_awake.py`, and then predict blood flow speed with the trained model on Awake Dataset:
-```console
+```
 cd OCTA-Flow/octaflow
 python inference_val_images_oca2odt_awake.py
 ```
