@@ -82,8 +82,8 @@ The models trained on the default dataset split (fold 0) are available below.
 
 | Model | Abs.Rel. | RMSE |
 |---|---|---|
-| Anesthetized | 0.3275 | 6.6611 |
-| Awake | 0.3363 | 7.0713 |
+| [Anesthetized](https://huggingface.co/Spritea/OCTA-Flow_Models/tree/main) | 0.3275 | 6.6611 |
+| [Awake](https://huggingface.co/Spritea/OCTA-Flow_Models/tree/main) | 0.3363 | 7.0713 |
 
 
 ## Acknowledgements
