@@ -1,0 +1,31 @@
+--mode train
+--model_name octaflow_oca2odt
+--encoder tiny07
+--pretrain model_zoo/swin_transformer/swin_tiny_patch4_window7_224.pth
+--dataset oca2odt
+--data_path datasets_release/awake_dataset
+--gt_path datasets_release/awake_dataset
+--filenames_file data_splits_k_fold_release/awake_dataset/awake_dataset_filepaths_train_fold_1.txt
+--batch_size 8
+--num_epochs 50
+--learning_rate 2e-4
+--weight_decay 1e-2
+--adam_eps 1e-3
+--num_threads 1
+--input_height 500
+--input_width 1000
+--max_depth 66
+--do_random_rotate
+--degree 2.5
+--log_directory work_dirs/models_awake_lr_2e-4_save_all/
+--multiprocessing_distributed
+--dist_url tcp://127.0.0.1:2345
+
+--log_freq 100
+--do_online_eval
+--eval_freq 5
+--data_path_eval datasets_release/awake_dataset
+--gt_path_eval datasets_release/awake_dataset
+--filenames_file_eval data_splits_k_fold_release/awake_dataset/awake_dataset_filepaths_test_fold_1.txt
+--min_depth_eval 1e-3
+--max_depth_eval 66
