@@ -6,7 +6,7 @@ This is the official PyTorch implementation code for OCTA-Flow.
 Wensheng Cheng<sup>1</sup>, Zhenghong Li<sup>1</sup>, Jiaxiang Ren<sup>1</sup>, Hyomin Jeong<sup>2</sup>,
 Congwu Du<sup>2</sup>, Yingtian Pan<sup>2</sup>, Haibin Ling<sup>1</sup> <br/>
 <sup>1</sup>Department of Computer Science, <sup>2</sup>Department of Biomedical Engineering, Stony Brook University <br>
-**CVPR 2025** **[[Paper](https://github.com/Spritea/OCTA-Flow)]** | **[[Supp](https://github.com/Spritea/OCTA-Flow)]**
+**CVPR 2025** **[[CVF Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Cheng_Blood_Flow_Speed_Estimation_with_Optical_Coherence_Tomography_Angiography_Images_CVPR_2025_paper.pdf)]** | **[[CVF Supp](https://openaccess.thecvf.com/content/CVPR2025/supplemental/Cheng_Blood_Flow_Speed_CVPR_2025_supplemental.pdf)]**
 
 ## Highlights
 * First work to directly estimate blood flow speed with OCTA images.
