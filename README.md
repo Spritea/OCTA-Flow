@@ -85,8 +85,8 @@ The models trained on the default dataset split (fold 0) are available below.
 | [Awake](https://huggingface.co/Spritea/OCTA-Flow_Models/tree/main) | 33.63 | 7.0713 |
 
 ## Benchmark Results
-Model performances on the default dataset split (fold 0) are shown below.
-| Model | Abs.Rel.(%)<br>(Anesthetized)  | RMSE<br>(Anesthetized) | Abs.Rel.(%)<br>(Awake)  | RMSE<br>(Awake) |
+Method performances on the default dataset split (fold 0) are shown below.
+| Method | Abs.Rel.(%)<br>(Anesthetized)  | RMSE<br>(Anesthetized) | Abs.Rel.(%)<br>(Awake)  | RMSE<br>(Awake) |
 |---|---|---|---|---|
 | BTS | 38.3 | 6.964 | 39.0 | 7.355 |
 | IEBins | 34.3 | 7.363 | 45.6 | 9.671 |
