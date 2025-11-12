@@ -79,11 +79,22 @@ python inference_val_images_oca2odt_awake.py
 ## Checkpoints
 The models trained on the default dataset split (fold 0) are available below.
 
-| Model | Abs.Rel. | RMSE |
+| Model | Abs.Rel.(%) | RMSE |
 |---|---|---|
-| [Anesthetized](https://huggingface.co/Spritea/OCTA-Flow_Models/tree/main) | 0.3275 | 6.6611 |
-| [Awake](https://huggingface.co/Spritea/OCTA-Flow_Models/tree/main) | 0.3363 | 7.0713 |
+| [Anesthetized](https://huggingface.co/Spritea/OCTA-Flow_Models/tree/main) | 32.75 | 6.6611 |
+| [Awake](https://huggingface.co/Spritea/OCTA-Flow_Models/tree/main) | 33.63 | 7.0713 |
 
+## Benchmark Results
+Model performances on the default dataset split (fold 0) are shown below.
+| Model | Abs.Rel.(%)<br>(Anesthetized)  | RMSE<br>(Anesthetized) | Abs.Rel.(%)<br>(Awake)  | RMSE<br>(Awake) |
+|---|---|---|---|---|
+| BTS | 38.3 | 6.964 | 39.0 | 7.355 |
+| IEBins | 34.3 | 7.363 | 45.6 | 9.671 |
+| NeuWin | 34.4 | 6.818 | 36.6 | 7.502 |
+| Ord Ent | 34.1 | 7.045 | 35.8 | 7.683 |
+| Diff Depth | 49.3 | 7.483 | 39.9 | 7.913 |
+| ECoDepth | 46.9 | 8.366 | 78.1 | 6.932 |
+| **OCTA-Flow** | **32.8** | **6.661** | **33.6** | **7.071** |
 
 ## Acknowledgements
 This implementation code is heavily based on the [NeWCRFs](https://github.com/aliyun/NeWCRFs) work, and the [Swin Transformer](https://github.com/microsoft/Swin-Transformer) work. Thanks for their great work!
