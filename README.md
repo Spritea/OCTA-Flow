@@ -93,7 +93,7 @@ Method performances on the default dataset split (fold 0) are shown below.
 | NeuWin | 34.4 | 6.818 | 36.6 | 7.502 |
 | Ord Ent | 34.1 | 7.045 | 35.8 | 7.683 |
 | Diff Depth | 49.3 | 7.483 | 39.9 | 7.913 |
-| ECoDepth | 46.9 | 8.366 | 78.1 | 6.932 |
+| ECoDepth | 49.0 | 8.705 | 81.6 | 10.416 |
 | **OCTA-Flow** | **32.8** | **6.661** | **33.6** | **7.071** |
 
 ## Acknowledgements
