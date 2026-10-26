@@ -1,6 +1,6 @@
 # OCTA-Flow
 
-This is the official PyTorch implementation code for OCTA-Flow.
+This is the official PyTorch implementation code for OCTA-Flow. The code is developed and maintained by Wensheng Cheng.
 
 >**Blood Flow Speed Estimation with Optical Coherence Tomography Angiography Images** <br/>
 Wensheng Cheng<sup>1</sup>, Zhenghong Li<sup>1</sup>, Jiaxiang Ren<sup>1</sup>, Hyomin Jeong<sup>2</sup>,
@@ -99,5 +99,3 @@ Method performances on the default dataset split (fold 0) are shown below.
 Note that the EcoDepth 5 fold cross-validation results should be Abs.Rel.(Anesthetized): 0.481 $\pm$ 0.010, RMSE(Anesthetized): 8.556 $\pm$ 0.116, Abs.Rel.(Awake): 0.857 $\pm$ 0.024, RMSE(Awake): 10.420 $\pm$ 0.009, after fixing an evaluation code bug of its codebase.
 ## Acknowledgements
 This implementation code is heavily based on the [NeWCRFs](https://github.com/aliyun/NeWCRFs) work, and the [Swin Transformer](https://github.com/microsoft/Swin-Transformer) work. Thanks for their great work!
-## Contact
-If you have any questions/suggestions, please contact Wensheng Cheng (wenscheng@cs.stonybrook.edu).
